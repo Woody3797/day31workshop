@@ -1,7 +1,7 @@
 <div *ngIf="contents.length > 0 else emptyCart">
     <ul>
         <li *ngFor="let c of contents">
-            <code> {{ c.item }}</code>
+            <span> {{ c.item }}</span>
             (<i>{{ c.quantity }}</i>)
         </li>
     </ul>

@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { CartAction, CartItem } from '../model';
+import { CartItem } from '../model';
 
 @Component({
     selector: 'app-cart',
@@ -9,5 +9,6 @@ import { CartAction, CartItem } from '../model';
 export class CartComponent {
 
     @Input()
-    contents: CartItem[] = [] 
+    contents: CartItem[] = []
+    
 }
